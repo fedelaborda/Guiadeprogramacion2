@@ -24,10 +24,10 @@ public class while1 : MonoBehaviour
         }
         else
         {
-            while (Numero1 > Numero2)
+            while (Numero1 >= Numero2)
             {
-                Numero1--;
                 Debug.Log(Numero1);
+                Numero1--;
             }
         }
 
